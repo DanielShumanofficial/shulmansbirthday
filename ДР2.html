@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>День Рождения Даниила Шульман</title>
+    <style>
+        /* Основные стили */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.postimg.cc/B6DGZPxK/Nature.jpg'); /* Путь к фоновому изображению */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #444;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            color: #555;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 22px;
+            font-weight: 500;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .guests {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .guest {
+            width: 48%; /* Ширина каждого гостя */
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .guest img {
+            width: 200px; /* Увеличенный размер фотографии */
+            height: 200px;
+            border-radius: 50%; /* Круглая форма */
+            object-fit: cover; /* Обрезка фотографии */
+            border: 4px solid #fff; /* Белая рамка */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .guest img:hover {
+            transform: scale(1.05); /* Увеличение при наведении */
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .guest h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #444;
+            margin-top: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Адаптивность для мобильных устройств */
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+
+            .guest {
+                width: 100%; /* На мобильных устройствах фотографии будут в одну колонку */
+            }
+
+            .guest img {
+                width: 180px; /* Увеличенный размер фотографий для мобильных */
+                height: 180px;
+            }
+
+            h1 {
+                font-size: 28px; /* Уменьшенный размер заголовка */
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>День Рождения Даниила Шульман</h1>
+        <h2>Суббота, 8 февраля 2025</h2>
+        <h3>Адрес: Люберцы, Инициативная 7В</h3>
+        <h3>Время: 18:00</h3>
+        
+        <h2>Гости вечеринки</h2>
+        
+        <div class="guests">
+            <div class="guest">
+                <h2>Даня</h2>
+                <img src="https://i.postimg.cc/mD028GSQ/photo-2025-02-07-20-00-27.jpg" alt="Даня">
+            </div>
+            
+            <div class="guest">
+                <h2>Арина</h2>
+                <img src="https://i.postimg.cc/4493nmJw/photo-2025-02-07-20-00-24.jpg" alt="Арина">
+            </div>
+            
+            <div class="guest">
+                <h2>Миша</h2>
+                <img src="https://i.postimg.cc/T1g2sHkB/photo-2025-02-07-20-00-23.jpg" alt="Миша">
+            </div>
+            
+            <div class="guest">
+                <h2>Яна</h2>
+                <img src="https://i.postimg.cc/R0p0Jt6p/photo-2025-02-07-20-00-22.jpg" alt="Яна">
+            </div>
+            
+            <div class="guest">
+                <h2>Ксюша</h2>
+                <img src="https://i.postimg.cc/zBLGCfTz/photo-2025-02-07-20-00-20.jpg" alt="Ксюша">
+            </div>
+            
+            <div class="guest">
+                <h2>Я</h2>
+                <img src="https://i.postimg.cc/tCG46pJb/photo-2025-02-07-20-00-25.jpg" alt="Шульман">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
